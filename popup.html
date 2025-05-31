@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPN | SHZ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header">
+    <h1>VPN | SHZ</h1>
+    <div id="serverName">Stockholm</div>
+  </div>
+  <div id="proxyStatus">
+    <div class="circle">
+      <span id="timer">00:00:00</span>
+      <button id="proxyToggle">Включить</button>
+    </div>
+  </div>
+  <div id="connectionInfo">
+    <div class="info-item">
+      <span>Статус:</span>
+      <span id="connectionStatus">Отключено</span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
